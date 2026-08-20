@@ -1,0 +1,10 @@
+{
+  "description": "Transforms documents into context-aware websites, enabling users to effortlessly create informative and engaging web pages from their content.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
