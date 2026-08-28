@@ -35,7 +35,7 @@ export default function Header({ currentPage, onNavigate }: Props) {
             </div>
             <span className="font-display font-bold text-navy text-[15px] leading-none tracking-tight">Sampark</span>
             <span className="text-[9px] font-semibold font-mono bg-muted-bg text-muted px-1.5 py-0.5 rounded uppercase tracking-wider">
-              Pratapgarh
+              Varanasi
             </span>
           </button>
 

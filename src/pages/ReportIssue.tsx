@@ -32,7 +32,7 @@ export default function ReportIssue({ onNavigate }: Props) {
   const [submitted, setSubmitted] = useState(false);
 
   const handleUseLocation = () => {
-    setLocationText('Government College Road, Civil Lines, Pratapgarh');
+    setLocationText('BHU Lanka Gate Road, Ward 7 (Lanka), Varanasi');
     setLocationSet(true);
   };
 
@@ -56,7 +56,7 @@ export default function ReportIssue({ onNavigate }: Props) {
             <div className="grid grid-cols-2 gap-3 text-sm">
               <div>
                 <p className="text-[10px] font-semibold text-muted uppercase tracking-wide mb-0.5">Ticket ID</p>
-                <p className="font-mono font-semibold text-primary">PRT-20482</p>
+                <p className="font-mono font-semibold text-primary">VNS-20482</p>
               </div>
               <div>
                 <p className="text-[10px] font-semibold text-muted uppercase tracking-wide mb-0.5">Category</p>
@@ -64,7 +64,7 @@ export default function ReportIssue({ onNavigate }: Props) {
               </div>
               <div>
                 <p className="text-[10px] font-semibold text-muted uppercase tracking-wide mb-0.5">Location</p>
-                <p className="text-navy">{locationText || 'Government College Road'}</p>
+                <p className="text-navy">{locationText || 'BHU Lanka Gate Road'}</p>
               </div>
               <div>
                 <p className="text-[10px] font-semibold text-muted uppercase tracking-wide mb-0.5">Department</p>
@@ -91,9 +91,9 @@ export default function ReportIssue({ onNavigate }: Props) {
             </div>
           </div>
 
-          <div className="flex gap-3 justify-center">
+          <div className="flex justify-center gap-3">
             <button
-              onClick={() => onNavigate('track', { id: 'PRT-20482' })}
+              onClick={() => onNavigate('track', { id: 'VNS-20482' })}
               className="px-4 py-2 bg-primary text-white font-semibold text-sm rounded-lg hover:bg-primary-dark"
             >
               Track Complaint
@@ -170,7 +170,7 @@ export default function ReportIssue({ onNavigate }: Props) {
             <CityMap issues={[]} />
           </div>
           <p className="text-xs text-muted">
-            <span className="font-mono">Lat: 25.8784 · Lng: 81.9723</span>
+            <span className="font-mono">Lat: 25.2677 · Lng: 82.9913</span>
             <span className="ml-2 text-slate-400">(auto-captured)</span>
           </p>
 

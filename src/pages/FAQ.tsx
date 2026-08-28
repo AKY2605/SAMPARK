@@ -10,7 +10,7 @@ const faqs: QA[] = [
   {
     category: 'Filing a Complaint',
     q: 'How do I report a civic issue?',
-    a: 'Go to "Report Issue" in the top navigation. Choose your location on the map, select a category (Roads, Drainage, Garbage, etc.), optionally upload a photo, describe the problem, and submit. You will receive a unique ticket ID like PRT-20481.',
+    a: 'Go to "Report Issue" in the top navigation. Choose your location on the map, select a category (Roads, Drainage, Garbage, etc.), optionally upload a photo, describe the problem, and submit. You will receive a unique ticket ID like VNS-20481.',
   },
   {
     category: 'Filing a Complaint',
@@ -25,12 +25,12 @@ const faqs: QA[] = [
   {
     category: 'Tracking',
     q: 'How do I track my complaint?',
-    a: 'Use the "Track Complaint" page from the top navigation bar. Enter your ticket ID (e.g. PRT-20481) and press Track. You will see the current status, SLA countdown, assigned department, and a full activity log.',
+    a: 'Use the "Track Complaint" page from the top navigation bar. Enter your ticket ID (e.g. VNS-20481) and press Track. You will see the current status, SLA countdown, assigned department, and a full activity log.',
   },
   {
     category: 'Tracking',
     q: 'What do the different statuses mean?',
-    a: 'Pending — complaint received, not yet assigned. Assigned — forwarded to a department. In Progress — field work underway. Resolved — department has marked it fixed. SLA Breached — deadline passed and the issue has been automatically escalated to the Executive Officer.',
+    a: 'Pending — complaint received, not yet assigned. Assigned — forwarded to a department. In Progress — field work underway. Resolved — department has marked it fixed. SLA Breached — deadline passed and the issue has been automatically escalated to the Municipal Commissioner.',
   },
   {
     category: 'SLA & Escalation',
@@ -40,12 +40,12 @@ const faqs: QA[] = [
   {
     category: 'SLA & Escalation',
     q: 'What happens if the SLA is breached?',
-    a: 'When a deadline expires without resolution, the ticket is automatically marked "SLA Breached" and escalated to the Executive Officer (EO) of Pratapgarh Nagar Palika. The EO is then responsible for ensuring the issue is addressed.',
+    a: 'When a deadline expires without resolution, the ticket is automatically marked "SLA Breached" and escalated to the Municipal Commissioner of Varanasi Nagar Nigam. The Commissioner is then responsible for ensuring the issue is addressed.',
   },
   {
     category: 'SLA & Escalation',
     q: 'Can the same problem be reported by multiple citizens?',
-    a: 'Yes. Sampark groups nearby reports of the same problem. If 4 citizens report the same drain, they are linked into one civic issue. The ticket shows "4 related reports · 47 citizen confirmations" so officials can see the actual scale.',
+    a: 'Yes. Sampark groups nearby reports of the same problem. If 4 citizens report the same drain near BHU Lanka, they are linked into one civic issue. The ticket shows "4 related reports · 47 citizen confirmations" so officials can see the actual scale.',
   },
   {
     category: 'Verification',
@@ -60,12 +60,12 @@ const faqs: QA[] = [
   {
     category: 'Civic Map',
     q: 'What does the Civic Map show?',
-    a: 'The Civic Map shows all reported issues in Pratapgarh as colour-coded markers: red = SLA Breached, orange = Pending, blue = In Progress, green = Resolved. You can filter by category and status. Clicking a marker shows issue details in a side panel.',
+    a: 'The Civic Map shows all reported issues in Varanasi as colour-coded markers: red = SLA Breached, orange = Pending, blue = In Progress, green = Resolved. You can filter by category and status. Clicking a marker shows issue details in a side panel.',
   },
   {
     category: 'General',
     q: 'Is this an official government platform?',
-    a: 'This is a prototype and demonstration platform. It is not an official government service unless formally adopted by Pratapgarh Nagar Palika Parishad. All data shown is fictional and for demonstration purposes only.',
+    a: 'This is a prototype and demonstration platform. It is not an official government service unless formally adopted by Varanasi Nagar Nigam. All data shown is fictional and for demonstration purposes only.',
   },
 ];
 
@@ -82,7 +82,7 @@ export default function FAQ() {
       <div className="mb-6">
         <p className="text-[11px] font-semibold font-mono text-primary uppercase tracking-widest mb-1">Help Centre</p>
         <h1 className="font-display text-2xl font-bold text-navy mb-1">Frequently Asked Questions</h1>
-        <p className="text-muted text-sm">Common questions about using Sampark Pratapgarh.</p>
+        <p className="text-muted text-sm">Common questions about using Sampark Varanasi.</p>
       </div>
 
       {/* Category filter */}

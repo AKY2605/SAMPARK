@@ -16,8 +16,8 @@ const announcements: Announcement[] = [
     date: '2026-08-19',
     tag: 'Notice',
     tagColor: 'bg-info-bg text-info-text',
-    title: 'Monsoon Drainage Clearance Drive — Ward 5 & Ward 7',
-    body: 'Nagar Palika Parishad Pratapgarh will conduct a special drainage clearance drive in Ward 5 (Civil Lines) and Ward 7 (Government College Road) on 21–22 August 2026. Citizens are requested to keep access to drainage covers clear. Complaints in these wards will be given priority SLA of 6 hours during this period.',
+    title: 'Monsoon Drainage Clearance Drive — Ward 5 (Cantt Civil Lines) & Ward 7 (Lanka / BHU)',
+    body: 'Varanasi Nagar Nigam will conduct a special drainage clearance drive in Ward 5 (Cantt Civil Lines) and Ward 7 (BHU Lanka Gate Road) on 21–22 August 2026. Citizens are requested to keep access to drainage covers clear. Complaints in these wards will be given priority SLA of 6 hours during this period.',
     dept: 'Public Works Department',
   },
   {
@@ -25,8 +25,8 @@ const announcements: Announcement[] = [
     date: '2026-08-17',
     tag: 'Urgent',
     tagColor: 'bg-critical-bg text-critical-text',
-    title: 'Road Repair Work: Station Road Partial Closure',
-    body: 'Scheduled road repair work will take place on Station Road (between Bus Stand and Railway Station) from 22 August to 25 August 2026, 10 PM to 5 AM daily. One lane will remain open. Citizens are advised to use Collectorate Road as an alternative. Any new pothole complaints on this stretch will be merged with the repair work ticket PRT-20476.',
+    title: 'Road Repair Work: Varanasi Cantt Station Road Partial Closure',
+    body: 'Scheduled road repair work will take place on Varanasi Cantt Station Road (between Bus Terminal and Railway Station) from 22 August to 25 August 2026, 10 PM to 5 AM daily. One lane will remain open. Citizens are advised to use Collectorate / Kutchery Road as an alternative. Any new pothole complaints on this stretch will be merged with repair ticket VNS-20476.',
     dept: 'PWD Roads Division',
   },
   {
@@ -34,9 +34,9 @@ const announcements: Announcement[] = [
     date: '2026-08-15',
     tag: 'Achievement',
     tagColor: 'bg-resolved-bg text-resolved-text',
-    title: 'Sampark Reaches 1,284 Registered Complaints — 87% Resolved on Time',
-    body: 'Pratapgarh Nagar Palika is pleased to report that since the launch of the Sampark pilot platform, 1,284 civic complaints have been filed by citizens. Of these, 643 have been resolved within SLA, achieving an 87% on-time resolution rate. The Sanitation Division recorded the highest SLA compliance at 91%. Citizens are thanked for their active participation.',
-    dept: 'Nagar Palika Parishad',
+    title: 'Sampark Reaches 1,284 Registered Complaints — 87% Resolved on Time in Varanasi',
+    body: 'Varanasi Nagar Nigam is pleased to report that since the launch of the Sampark pilot platform in Kashi, 1,284 civic complaints have been filed by citizens. Of these, 643 have been resolved within SLA, achieving an 87% on-time resolution rate. The Sanitation Division recorded the highest SLA compliance at 91%. Citizens are thanked for their active participation.',
+    dept: 'Nagar Nigam Varanasi',
   },
   {
     id: 4,
@@ -44,16 +44,16 @@ const announcements: Announcement[] = [
     tag: 'Policy',
     tagColor: 'bg-warning-bg text-warning-text',
     title: 'Revised SLA Timelines for Waterlogging Complaints',
-    body: 'In light of the monsoon season, the SLA for drainage and waterlogging complaints has been temporarily reduced from 24 hours to 12 hours until 30 September 2026. Complaints involving road damage caused by waterlogging will continue to follow the 48-hour road repair SLA. Officers failing to respond within the monsoon SLA window will be automatically escalated to the District Magistrate.',
-    dept: 'Executive Officer, Nagar Palika',
+    body: 'In light of the monsoon season in Varanasi, the SLA for drainage and waterlogging complaints has been temporarily reduced from 24 hours to 12 hours until 30 September 2026. Complaints involving road damage caused by waterlogging will continue to follow the 48-hour road repair SLA. Officers failing to respond within the monsoon SLA window will be automatically escalated to the Municipal Commissioner.',
+    dept: 'Municipal Commissioner, Varanasi Nagar Nigam',
   },
   {
     id: 5,
     date: '2026-08-08',
     tag: 'Notice',
     tagColor: 'bg-info-bg text-info-text',
-    title: 'Street Light Replacement Programme: 350 LED Lights to be Installed',
-    body: 'Under the Smart Cities initiative, Nagar Palika Pratapgarh will replace 350 sodium-vapour street lights with energy-efficient LED fixtures across Wards 1–4. Work will commence on 25 August 2026. Citizens experiencing broken streetlights in these wards may file a complaint on Sampark; affected tickets will be consolidated under the replacement programme and resolved within the project timeline.',
+    title: 'Street Light Replacement Programme: 350 LED Lights in Varanasi Smart City Drive',
+    body: 'Under the Kashi Smart City initiative, Varanasi Nagar Nigam will replace 350 sodium-vapour street lights with energy-efficient LED fixtures across Wards 1–4. Work will commence on 25 August 2026. Citizens experiencing broken streetlights in these wards may file a complaint on Sampark; affected tickets will be consolidated under the replacement programme.',
     dept: 'Electrical Division',
   },
   {
@@ -61,9 +61,9 @@ const announcements: Announcement[] = [
     date: '2026-08-04',
     tag: 'General',
     tagColor: 'bg-muted-bg text-muted',
-    title: 'Sampark WhatsApp Channel Now Active — Report Issues via WhatsApp',
-    body: 'Citizens can now report civic issues by sending a message or photo to the Sampark WhatsApp number: +91-XXXXX-XXXXX. Type your ward name, issue type, and location, and the system will auto-generate a ticket. Ticket confirmations, status updates, and SLA alerts will be sent back to you via WhatsApp. This is part of the One Civic Window initiative to make reporting accessible on any channel.',
-    dept: 'IT Cell, Nagar Palika',
+    title: 'Sampark WhatsApp Channel Active for Kashi Citizens',
+    body: 'Citizens can now report civic issues by sending a message or photo to the Sampark WhatsApp number: +91-XXXXX-XXXXX. Type your ward name, issue type, and location, and the system will auto-generate a ticket. Ticket confirmations, status updates, and SLA alerts will be sent back via WhatsApp. Part of the One Civic Window initiative for Varanasi.',
+    dept: 'IT Cell, Varanasi Nagar Nigam',
   },
 ];
 
@@ -75,7 +75,7 @@ export default function Announcements() {
       <div className="mb-6">
         <p className="text-[11px] font-semibold font-mono text-primary uppercase tracking-widest mb-1">Municipal Notices</p>
         <h1 className="font-display text-2xl font-bold text-navy mb-1">Announcements</h1>
-        <p className="text-muted text-sm">Official notices, policy updates, and civic news from Pratapgarh Nagar Palika.</p>
+        <p className="text-muted text-sm">Official notices, policy updates, and civic news from Varanasi Nagar Nigam.</p>
       </div>
 
       <div className="space-y-3">
@@ -126,7 +126,7 @@ export default function Announcements() {
 
       <div className="mt-6 text-center">
         <p className="text-[10px] text-slate-400">
-          Demo data · Announcements are updated by Nagar Palika Parishad, Pratapgarh
+          Demo data · Announcements are updated by Nagar Nigam Varanasi
         </p>
       </div>
     </div>

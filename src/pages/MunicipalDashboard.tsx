@@ -20,7 +20,7 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
             </svg>
           </div>
           <h1 className="font-display text-xl font-bold text-navy">Municipal Login</h1>
-          <p className="text-muted text-sm mt-1">Sampark Admin · Pratapgarh Nagar Palika</p>
+          <p className="text-muted text-sm mt-1">Sampark Admin · Varanasi Nagar Nigam</p>
         </div>
 
         <div className="bg-surface rounded-xl border border-border p-5 space-y-4 shadow-sm">
@@ -30,7 +30,7 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="officer@nagar.pratapgarh.gov.in"
+              placeholder="officer@nagarnigam.varanasi.gov.in"
               className="w-full border border-border rounded-lg px-3 py-2 text-sm text-navy placeholder:text-slate-400 focus:outline-none focus:border-primary"
             />
           </div>
@@ -106,7 +106,7 @@ export default function MunicipalDashboard() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="font-display text-xl font-bold text-navy">Municipal Dashboard</h1>
-          <p className="text-muted text-xs mt-0.5">Pratapgarh Nagar Palika · Officer View · Demo Data</p>
+          <p className="text-muted text-xs mt-0.5">Varanasi Nagar Nigam · Officer View · Demo Data</p>
         </div>
         <button
           onClick={() => setLoggedIn(false)}

@@ -14,19 +14,19 @@ const stepIndex: Record<string, number> = {
 };
 
 const activityLog: Record<string, { time: string; text: string; type: 'info' | 'warn' | 'success' }[]> = {
-  'PRT-20481': [
+  'VNS-20481': [
     { time: '2026-08-17 · 11:42', text: 'Complaint assigned to Public Works Department, Junior Engineer Ramesh Kumar.', type: 'info' },
-    { time: '2026-08-17 · 14:05', text: 'Field inspection initiated. Team dispatched to site.', type: 'info' },
+    { time: '2026-08-17 · 14:05', text: 'Field inspection initiated at BHU Lanka Gate site. Team dispatched.', type: 'info' },
     { time: '2026-08-17 · 09:14', text: 'Complaint registered. Auto-categorised as Drainage (High severity). SLA: 24h.', type: 'info' },
   ],
-  'PRT-20471': [
-    { time: '2026-08-16 · 09:15', text: 'SLA breached. Complaint automatically escalated to Executive Officer.', type: 'warn' },
-    { time: '2026-08-15 · 19:30', text: 'SLA warning: 4h remaining. Department notified.', type: 'warn' },
+  'VNS-20471': [
+    { time: '2026-08-16 · 09:15', text: 'SLA breached. Complaint automatically escalated to Municipal Commissioner, Varanasi Nagar Nigam.', type: 'warn' },
+    { time: '2026-08-15 · 19:30', text: 'SLA warning: 4h remaining. Sanitation Division notified.', type: 'warn' },
     { time: '2026-08-15 · 07:45', text: 'Complaint registered. SLA: 12h.', type: 'info' },
   ],
-  'PRT-20465': [
+  'VNS-20465': [
     { time: '2026-08-15 · 10:30', text: 'Resolution verified by citizen. Ticket closed.', type: 'success' },
-    { time: '2026-08-15 · 08:00', text: 'Streetlight repaired. Resolution photo uploaded.', type: 'success' },
+    { time: '2026-08-15 · 08:00', text: 'Streetlight repaired near Cantt Bus Stand. Resolution photo uploaded.', type: 'success' },
     { time: '2026-08-14 · 22:10', text: 'Assigned to Electrical Division, Technician Suresh.', type: 'info' },
     { time: '2026-08-14 · 20:00', text: 'Complaint registered. SLA: 24h.', type: 'info' },
   ],
@@ -67,7 +67,7 @@ export default function TrackComplaint({ initialId }: Props) {
           value={query}
           onChange={(e) => { setQuery(e.target.value); setSearched(false); }}
           onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
-          placeholder="Enter complaint ID, e.g. PRT-20481"
+          placeholder="Enter complaint ID, e.g. VNS-20481"
           className="flex-1 border border-border rounded-lg px-4 py-2.5 text-sm font-mono text-navy placeholder:text-slate-400 focus:outline-none focus:border-primary"
         />
         <button
@@ -82,7 +82,7 @@ export default function TrackComplaint({ initialId }: Props) {
       {searched && !issue && query && (
         <div className="bg-muted-bg border border-border rounded-xl p-6 text-center">
           <p className="text-muted text-sm">No complaint found for <span className="font-mono font-semibold text-navy">{query}</span>.</p>
-          <p className="text-xs text-muted mt-1">Try: PRT-20481, PRT-20476, PRT-20471, PRT-20465, PRT-20459</p>
+          <p className="text-xs text-muted mt-1">Try: VNS-20481, VNS-20476, VNS-20471, VNS-20465, VNS-20459</p>
         </div>
       )}
 
@@ -246,7 +246,7 @@ export default function TrackComplaint({ initialId }: Props) {
         <div className="bg-muted-bg rounded-xl border border-border p-6 text-center">
           <div className="text-3xl mb-3">🎫</div>
           <p className="text-sm text-muted">Enter a ticket ID to see its status, timeline, and SLA countdown.</p>
-          <p className="text-xs text-slate-400 mt-2">Example: PRT-20481 · PRT-20471 · PRT-20465</p>
+          <p className="text-xs text-slate-400 mt-2">Example: VNS-20481 · VNS-20471 · VNS-20465</p>
         </div>
       )}
     </div>

@@ -20,7 +20,7 @@ export default function Footer({ onNavigate }: Props) {
               <span className="font-display font-bold text-white text-sm">Sampark</span>
             </div>
             <p className="text-slate-400 text-xs leading-relaxed">
-              Pratapgarh Civic Issue Resolution Platform.<br />
+              Varanasi Civic Issue Resolution Platform.<br />
               Report · Track · Verify.
             </p>
             <div className="mt-4 p-2.5 bg-slate-800 rounded-lg border border-slate-700">
@@ -61,9 +61,9 @@ export default function Footer({ onNavigate }: Props) {
           <div>
             <p className="text-[10px] font-semibold text-slate-500 uppercase tracking-wide mb-3">Contact</p>
             <div className="space-y-2 text-xs text-slate-400">
-              <p>Nagar Palika Parishad</p>
-              <p>Pratapgarh, Uttar Pradesh — 230001</p>
-              <p>helpdesk@civictrack.pratapgarh.gov.in</p>
+              <p>Nagar Nigam Varanasi</p>
+              <p>Varanasi, Uttar Pradesh — 221002</p>
+              <p>helpdesk@civictrack.varanasi.gov.in</p>
               <p>1800-XXX-XXXX (Toll Free)</p>
             </div>
             <div className="mt-4 space-y-1">
@@ -75,7 +75,7 @@ export default function Footer({ onNavigate }: Props) {
 
         <div className="mt-6 pt-4 border-t border-slate-700">
           <p className="text-[10px] text-slate-600 leading-relaxed">
-            Prototype / demonstration platform. Not an official government service unless formally adopted by Pratapgarh Nagar Palika. All data shown is fictional and for demonstration purposes only.
+            Prototype / demonstration platform. Not an official government service unless formally adopted by Varanasi Nagar Nigam. All data shown is fictional and for demonstration purposes only.
           </p>
         </div>
       </div>

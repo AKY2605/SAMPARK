@@ -1,7 +1,9 @@
 {
-  "name": "figma-make-app",
+  "name": "sampark-varanasi",
   "private": true,
   "version": "1.0.0",
+  "description": "Sampark — Transparent Civic Issue Reporting & Resolution Portal for Varanasi Nagar Nigam",
+  "homepage": "https://AKY2605.github.io/SAMPARK/",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",

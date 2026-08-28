@@ -7,7 +7,7 @@ const tiers = [
   { name: 'Active Citizen',     minUpvotes: 25,  maxUpvotes: 99,  medal: '🥉', color: '#92400E', bg: '#FEF3C7', perks: ['1 starter voucher'] },
   { name: 'Civic Champion',     minUpvotes: 100, maxUpvotes: 249, medal: '🥈', color: '#374151', bg: '#F3F4F6', perks: ['3 vouchers', 'Contribution Certificate'] },
   { name: 'Community Hero',     minUpvotes: 250, maxUpvotes: 499, medal: '🥇', color: '#D97706', bg: '#FFFBEB', perks: ['5 vouchers', 'Verified Certificate', 'Priority support'] },
-  { name: 'Pratapgarh Guardian',minUpvotes: 500, maxUpvotes: Infinity, medal: '🏆', color: '#6D28D9', bg: '#F5F3FF', perks: ['All vouchers', 'Official Recognition Letter', 'Nagar Palika acknowledgement'] },
+  { name: 'Varanasi Shield',    minUpvotes: 500, maxUpvotes: Infinity, medal: '🏆', color: '#6D28D9', bg: '#F5F3FF', perks: ['All vouchers', 'Official Recognition Letter', 'Nagar Nigam acknowledgement'] },
 ];
 
 function getTier(upvotes: number) {
@@ -304,9 +304,9 @@ export default function Rewards() {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-white"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                 </div>
-                <span className="font-display font-bold text-navy text-sm">Sampark · Pratapgarh</span>
+                <span className="font-display font-bold text-navy text-sm">Sampark · Varanasi</span>
               </div>
-              <p className="text-[10px] font-mono text-muted uppercase tracking-[0.2em] mb-4">नगर पालिका परिषद</p>
+              <p className="text-[10px] font-mono text-muted uppercase tracking-[0.2em] mb-4">नगर निगम, वाराणसी</p>
               <h2 className="font-display text-2xl font-extrabold text-navy mb-1">Certificate of Civic Contribution</h2>
               <div className="w-16 h-0.5 bg-amber-400 mx-auto mb-5" />
 
@@ -347,7 +347,7 @@ export default function Rewards() {
                 </p>
                 <div className="text-right">
                   <div className="w-24 h-px bg-navy mb-1 ml-auto" />
-                  <p className="text-[10px] text-muted">Nagar Palika Officer</p>
+                  <p className="text-[10px] text-muted">Nagar Nigam Officer</p>
                 </div>
               </div>
             </div>

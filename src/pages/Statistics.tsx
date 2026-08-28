@@ -131,7 +131,7 @@ export default function Statistics() {
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
         <div>
           <h1 className="font-display text-2xl font-bold text-navy mb-1">Civic Statistics</h1>
-          <p className="text-muted text-sm">Pratapgarh Nagar Palika · Public Transparency Dashboard</p>
+          <p className="text-muted text-sm">Varanasi Nagar Nigam · Public Transparency Dashboard</p>
         </div>
         <div className="flex gap-1 bg-muted-bg rounded-lg p-1">
           {dateFilters.map((f) => (

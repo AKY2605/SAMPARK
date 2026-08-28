@@ -88,7 +88,7 @@ function FundTrackerTab() {
       <div className="flex items-start gap-3 bg-info-bg border border-info-text/20 rounded-xl px-4 py-3">
         <span className="text-lg shrink-0">🏛️</span>
         <p className="text-xs text-info-text leading-relaxed">
-          These figures represent funds <strong>allotted by the Central and State Government</strong> to Pratapgarh Nagar Palika Parishad for the current financial year. Spending data is updated monthly. Source: U.P. Municipal Finance Cell.
+          These figures represent funds <strong>allotted by the Central and State Government</strong> to Varanasi Nagar Nigam for the current financial year. Spending data is updated monthly. Source: U.P. Municipal Finance Cell.
         </p>
       </div>
 
@@ -173,7 +173,7 @@ function CommunityFundTab() {
       <div className="bg-surface rounded-2xl border border-border p-6 text-center">
         <p className="text-[11px] font-semibold text-muted uppercase tracking-widest mb-2">Community Fund Balance</p>
         <p className="font-display text-5xl font-extrabold text-teal-700 leading-none">{fmt(total)}</p>
-        <p className="text-sm text-muted mt-2">Raised by Pratapgarh citizens</p>
+        <p className="text-sm text-muted mt-2">Raised by Varanasi citizens</p>
         <div className="mt-4 flex items-center justify-center gap-2">
           <span className="w-2 h-2 rounded-full bg-resolved animate-pulse" />
           <span className="text-xs text-muted">Updated in real time</span>

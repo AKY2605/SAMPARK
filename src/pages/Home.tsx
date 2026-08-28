@@ -116,7 +116,7 @@ export default function Home({ onNavigate }: Props) {
             </svg>
           </div>
           <h2 className="font-display font-bold text-navy text-sm leading-tight">Sampark</h2>
-          <p className="text-[11px] text-muted mt-0.5 leading-snug">Pratapgarh Civic<br />Issue Portal</p>
+          <p className="text-[11px] text-muted mt-0.5 leading-snug">Varanasi Civic<br />Issue Portal</p>
         </div>
 
         {/* Help & info links */}
@@ -192,15 +192,15 @@ export default function Home({ onNavigate }: Props) {
         {/* Hero image */}
         <div className="relative w-full shrink-0" style={{ height: '300px' }}>
           <img
-            src="https://images.unsplash.com/photo-1549780100-a15a819b8ac5?w=1200&h=300&fit=crop&auto=format"
-            alt="Aerial view of Pratapgarh city"
+            src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&h=300&fit=crop&auto=format"
+            alt="Scenic view of Varanasi Ghats and Kashi City"
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy/75 via-navy/20 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-r from-navy/30 to-transparent" />
 
           <div className="absolute bottom-5 left-5 sm:left-6">
-            <p className="text-white/60 text-[10px] font-mono uppercase tracking-widest mb-1">नगर पालिका परिषद · Pratapgarh</p>
+            <p className="text-white/60 text-[10px] font-mono uppercase tracking-widest mb-1">नगर निगम · Varanasi (Kashi)</p>
             <h1 className="font-display text-2xl sm:text-3xl font-extrabold text-white leading-tight drop-shadow-md">
               नागरिक सेवा केंद्र
             </h1>
@@ -422,8 +422,8 @@ export default function Home({ onNavigate }: Props) {
               <div className="bg-surface rounded-xl border border-border p-4">
                 <h2 className="text-sm font-semibold text-navy mb-2">Latest Notice</h2>
                 <p className="text-[11px] font-semibold text-warning-text bg-warning-bg rounded px-2 py-1 mb-2">Urgent</p>
-                <p className="text-xs text-navy font-medium leading-snug">Station Road partial closure: 22–25 Aug, 10 PM–5 AM</p>
-                <p className="text-[10px] text-muted mt-1">Use Collectorate Road as alternative.</p>
+                <p className="text-xs text-navy font-medium leading-snug">Varanasi Cantt Station Road partial closure: 22–25 Aug, 10 PM–5 AM</p>
+                <p className="text-[10px] text-muted mt-1">Use Collectorate / Kutchery Road as alternative.</p>
                 <button
                   onClick={() => onNavigate('announcements')}
                   className="mt-2 text-xs text-primary font-medium hover:underline block"

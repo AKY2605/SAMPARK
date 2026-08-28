@@ -34,19 +34,19 @@ export default function CityMap({ issues, selectedId, onMarkerClick }: Props) {
         />
 
         {/* Green spaces */}
-        <rect x="318" y="42" width="72" height="54" fill="#C5D9A2" rx="4" />
-        <text x="354" y="69" fill="#567A2E" fontSize="7" fontFamily="Inter,sans-serif" textAnchor="middle">Parade Ground</text>
+        <rect x="318" y="42" width="85" height="54" fill="#C5D9A2" rx="4" />
+        <text x="360" y="69" fill="#567A2E" fontSize="7" fontFamily="Inter,sans-serif" textAnchor="middle">Sigra Stadium</text>
 
-        <rect x="52" y="188" width="56" height="44" fill="#C5D9A2" rx="4" />
-        <text x="80" y="212" fill="#567A2E" fontSize="7" fontFamily="Inter,sans-serif" textAnchor="middle">City Park</text>
+        <rect x="42" y="188" width="76" height="48" fill="#C5D9A2" rx="4" />
+        <text x="80" y="212" fill="#567A2E" fontSize="7" fontFamily="Inter,sans-serif" textAnchor="middle">BHU Campus</text>
 
-        {/* Sai River */}
+        {/* Holy Ganga River */}
         <path
           d="M0,288 C60,278 140,295 220,285 C300,275 380,290 460,280 L500,278 L500,308 C460,318 380,308 300,315 C220,322 140,312 60,318 Z"
-          fill="#A8C8DF"
-          opacity="0.75"
+          fill="#8BBCE0"
+          opacity="0.85"
         />
-        <text x="190" y="301" fill="#3E6E8A" fontSize="8" fontFamily="Inter,sans-serif" fontStyle="italic">Sai Nadi →</text>
+        <text x="190" y="301" fill="#1E40AF" fontSize="8.5" fontFamily="Inter,sans-serif" fontWeight="600" fontStyle="italic">Ganga River (गङ्गा) →</text>
 
         {/* City blocks */}
         <rect x="82" y="55" width="90" height="62" fill="#DCE4EE" rx="3" stroke="#C5D0DC" strokeWidth="0.5" />
@@ -74,15 +74,15 @@ export default function CityMap({ issues, selectedId, onMarkerClick }: Props) {
         <line x1="418" y1="152" x2="500" y2="232" stroke="#C2CDD9" strokeWidth="2" />
 
         {/* Road labels */}
-        <text x="90" y="147" fill="#8898AA" fontSize="7" fontFamily="Inter,sans-serif">Civil Lines Rd</text>
-        <text x="253" y="110" fill="#8898AA" fontSize="7" fontFamily="Inter,sans-serif">Station Rd</text>
+        <text x="90" y="147" fill="#8898AA" fontSize="7" fontFamily="Inter,sans-serif">Cantt Station Rd</text>
+        <text x="253" y="110" fill="#8898AA" fontSize="7" fontFamily="Inter,sans-serif">BHU Lanka Rd</text>
 
         {/* Area labels */}
-        <text x="128" y="88" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Collectorate</text>
-        <text x="248" y="76" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Govt. College</text>
-        <text x="100" y="196" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Bus Stand</text>
-        <text x="234" y="198" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Market Road</text>
-        <text x="363" y="200" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Civil Lines</text>
+        <text x="128" y="88" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Collectorate Kutchery</text>
+        <text x="248" y="76" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">IIT BHU Campus</text>
+        <text x="100" y="196" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Varanasi Cantt</text>
+        <text x="234" y="198" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Godowlia Chowk</text>
+        <text x="363" y="200" fill="#6A7A8A" fontSize="7.5" fontFamily="Inter,sans-serif" textAnchor="middle">Dashashwamedh</text>
 
         {/* Issue markers */}
         {issues.map((issue) => {
@@ -123,8 +123,8 @@ export default function CityMap({ issues, selectedId, onMarkerClick }: Props) {
         })}
       </svg>
 
-      <div className="absolute bottom-2 right-2 text-[9px] text-slate-400 bg-white/70 px-1.5 py-0.5 rounded">
-        Demo Map · Pratapgarh, UP
+      <div className="absolute bottom-2 right-2 text-[9px] font-medium text-slate-600 bg-white/80 px-1.5 py-0.5 rounded backdrop-blur-sm border border-slate-200">
+        Live Map · Varanasi, UP
       </div>
     </div>
   );
