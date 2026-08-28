@@ -1,7 +1,8 @@
 {
-  "description": "Transforms documents into context-aware websites, enabling users to effortlessly create informative and engaging web pages from their content.",
+  "title": "Sampark — Varanasi Civic Issue Portal",
+  "description": "Transparent civic issue reporting and SLA resolution platform for citizens and officials of Varanasi Nagar Nigam.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
